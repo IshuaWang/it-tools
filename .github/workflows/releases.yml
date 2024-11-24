@@ -44,8 +44,8 @@ jobs:
           tags: |
             xuanist/it-tools:latest
             xuanist/it-tools:${{ env.RELEASE_VERSION }}
-            ghcr.io/IshuaWang/it-tools:latest
-            ghcr.io/IshuaWang/it-tools:${{ env.RELEASE_VERSION}}
+            ghcr.io/ishuawang/it-tools:latest
+            ghcr.io/ishuawang/it-tools:${{ env.RELEASE_VERSION}}
 
   github-release:
     runs-on: ubuntu-latest
@@ -96,8 +96,8 @@ jobs:
               - `xuanist/it-tools:latest`
               - `xuanist/it-tools:${{ env.RELEASE_VERSION }}`
             - GitHub Container Registry
-              - `ghcr.io/IshuaWang/it-tools:latest`
-              - `ghcr.io/IshuaWang/it-tools:${{ env.RELEASE_VERSION}}`
+              - `ghcr.io/ishuawang/it-tools:latest`
+              - `ghcr.io/ishuawang/it-tools:${{ env.RELEASE_VERSION}}`
 
             ## Changelog
 
