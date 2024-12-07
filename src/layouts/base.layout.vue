@@ -81,7 +81,7 @@ const tools = computed<ToolCategory[]>(() => [
           </div> -->
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://wangyx.com">
+            <c-link target="_blank" rel="noopener" href="https://blog.wangyx.com">
               IshuaWang
             </c-link>
           </div>
