@@ -60,7 +60,7 @@ const tools = computed<ToolCategory[]>(() => [
         <CollapsibleToolMenu :tools-by-category="tools" />
 
         <div class="footer">
-          <div>
+          <!-- <div>
             IT-Tools
 
             <c-link target="_blank" rel="noopener" :href="`https://github.com/IshuaWang/it-tools/releases/tag/v${version}`">
@@ -78,7 +78,7 @@ const tools = computed<ToolCategory[]>(() => [
                 {{ commitSha }}
               </c-link>
             </template>
-          </div>
+          </div> -->
           <div>
             © {{ new Date().getFullYear() }}
             <c-link target="_blank" rel="noopener" href="https://wangyx.com">

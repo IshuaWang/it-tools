@@ -6,7 +6,7 @@ const styleStore = useStyleStore();
 const { isDarkTheme } = toRefs(styleStore);
 </script>
 
-<template>
+<!-- <template>
   <c-tooltip :tooltip="$t('home.nav.github')" position="bottom">
     <c-button
       circle
@@ -44,7 +44,7 @@ const { isDarkTheme } = toRefs(styleStore);
       <n-icon v-else size="25" :component="IconMoon" />
     </c-button>
   </c-tooltip>
-</template>
+</template> -->
 
 <style lang="less" scoped>
 .n-button {
