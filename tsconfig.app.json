@@ -8,7 +8,7 @@
     "module": "es2022",
     "moduleResolution": "Node",
     "composite": true,
-    "baseUrl": ".",
+    "baseUrl": "/tools",
     "paths": {
       "@/*": ["./src/*"]
     },
