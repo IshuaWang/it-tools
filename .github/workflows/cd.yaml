@@ -23,5 +23,4 @@ jobs:
         run: pnpm build
       - name: Deploy to Halo
         run: |
-          cat dist/manifest.webmanifest
           npx halo-static-pages-deploy-cli deploy -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ID }} -t ${{ secrets.PAT }} -f dist
